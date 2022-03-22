@@ -1,4 +1,4 @@
-Assignment
+## Assignment
 Complete the Category class in budget.py. It should be able to instantiate objects based on different budget categories like food, clothing, and entertainment. When objects are created, they are passed in the name of the category. The class should have an instance variable called ledger that is a list. The class should also contain the following methods:
 
 A deposit method that accepts an amount and description. If no description is given, it should default to an empty string. The method should append an object to the ledger list in the form of {"amount": amount, "description": description}.
@@ -77,11 +77,11 @@ Percentage spent by category
         g     
 The unit tests for this project are in test_module.py.
 
-Development
+## Development
 Write your code in budget.py. For development, you can use main.py to test your Category class. Click the "run" button and main.py will run.
 
-Testing
+## Testing
 We imported the tests from test_module.py to main.py for your convenience. The tests will run automatically whenever you hit the "run" button.
 
-Submitting
+## Submitting
 Copy your project's URL and submit it to freeCodeCamp.
